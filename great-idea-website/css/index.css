@@ -64,3 +64,33 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+nav a {
+	display: inline-block;
+	width: 7%;
+	margin-top: 1%;
+	color: gray;
+	font: titillium web;
+	text-decoration: none;
+}
+.logo {
+margin-top: 1%;
+
+}
+
+header {
+	display: inline-block;
+}
+h1 {
+	display: inline-block;
+	font-size: 70px;
+	width: 40%
+}
+
+.button {
+	border: 1px solid black;
+	display: inline-block;
+}
+
+.round-image {
+	display: inline-block;
+}
