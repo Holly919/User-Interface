@@ -64,6 +64,10 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	margin-left:50px;
+	margin-right: 50px;   
+}
 nav a {
 	display: inline-block;
 	width: 7%;
@@ -74,7 +78,8 @@ nav a {
 }
 .logo {
 margin-top: 1%;
-
+width: 15%;
+display: inline-block;
 }
 
 header {
@@ -82,15 +87,43 @@ header {
 }
 h1 {
 	display: inline-block;
+	text-align: center;
 	font-size: 70px;
 	width: 40%
 }
 
 .button {
 	border: 1px solid black;
-	display: inline-block;
+	display: inline;
 }
 
 .round-image {
+	display: block;
+	margin-left: 100%;
+
+}
+
+.top-content p h4 {
 	display: inline-block;
+	width: 35%;
+	
+}
+
+.middle-img {
+	display: inline-block;
+	margin: 10px 50px 10px 50px;
+}
+
+.bottom-content p {
+	display: inline-block;
+	width: 20%;
+}
+
+.contact-info {
+	display: block;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 2%;
 }
