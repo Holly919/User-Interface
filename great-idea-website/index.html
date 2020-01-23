@@ -24,9 +24,9 @@
         <a href=#>About</a>
         <a href=#>Contact</a>
         <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
-        </nav>
-        
+      </nav>        
     </div>
+    <!-- This extra div is causing your Great Idea logo to break to the next line, because it's not taking up the full width of the screen. Since invisible elements like this can cause a lot of pain when you're styling, use the * { border: 1px solid gray } trick in your CSS to set a border around every element.  -->
     
     <header>
       <h1>
@@ -38,6 +38,7 @@
 
       <img class="round-image" src="img/header-img.png" alt="Image of a code snippet.">
     </header>
+    <!-- Similarly here, the header isn't taking up any more width than it needs to, which is hard to see without a border. When you set a large enough width, the img should be on the same line as the other elements. -->
 
     <hr>
 
@@ -95,6 +96,7 @@
     scelerisque quis.</p>
   </div> 
   </section>
+  <!-- Check your CSS for this section - one of the selectors is missing 👀 -->
   
   <hr>
 
@@ -111,6 +113,7 @@
   <footer>
     Copyright Great Idea! 2018
   </footer>
+  <!-- Great job on contact and footer! Keep it up! -->
   
   
   </body>
