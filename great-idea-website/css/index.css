@@ -49,8 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
-}
+	box-sizing: border-box;
+	}
 
 html, body {
     height: 100%;
@@ -64,3 +64,77 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	margin: auto;   
+}
+nav {
+	width: 100%;
+}
+ nav a {
+	display: inline-block;
+	width: 10%;
+	margin-top: 1%;
+	color: gray;
+	text-decoration: none;
+}
+.logo {
+width: 15%;
+display: inline-block;
+position: absolute;
+right: 0;
+}
+
+header {
+	display: inline-block;
+	margin-top: 8%;
+}
+h1 {
+	text-align: center;
+	font-size: 70px;
+	width: 40%
+}
+
+.button {
+	border: 1px solid black;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin: auto;
+	
+}
+
+.round-image {
+	padding-bottom: 5%;
+	padding-left: 60%;
+	}
+
+	.top-content {
+		width: 100%;
+	}
+
+.top-content div{
+	display: inline-block;
+	width: 35%;
+	
+}
+
+.middle-img {
+	display: inline-block;
+	margin: 10px 50px 10px 50px;
+}
+
+.bottom-content {
+	width: 100%;
+}
+.bottom-content {
+	display: inline-block;
+	width: 20%;
+}
+
+.contact-info {
+	display: block;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 2%;
+}

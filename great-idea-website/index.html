@@ -15,49 +15,106 @@
 </head>
 
   <body>
+    <div>
+      <nav>
+        <a href=#>Services</a>
+        <a href=#>Product</a>
+        <a href=#>Vision</a>
+        <a href=#>Features</a>
+        <a href=#>About</a>
+        <a href=#>Contact</a>
+        <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
+      </nav>        
+    </div>
+    <!-- This extra div is causing your Great Idea logo to break to the next line, because it's not taking up the full width of the screen. Since invisible elements like this can cause a lot of pain when you're styling, use the * { border: 1px solid gray } trick in your CSS to set a border around every element.  -->
+    
+    <header>
+      <h1>
+      Innovation
+      On
+      Demand
+      </h1> <br>
+      <span class="button">Get Started</span>
 
-  Services
-  Product
-  Vision
-  Features
-  About
-  Contact
+      <img class="round-image" src="img/header-img.png" alt="Image of a code snippet.">
+    </header>
+    <!-- Similarly here, the header isn't taking up any more width than it needs to, which is hard to see without a border. When you set a large enough width, the img should be on the same line as the other elements. -->
 
-  <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
-  Innovation
-  On
-  Demand
+    <hr>
 
-  Get Started
-
-  <img src="img/header-img.png" alt="Image of a code snippet.">
-
-  Features
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
-
-
-  About
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
-
+    <section class="top-content">
+      <div>
+        <h4>Features</h4>
+        <p>Aliquam elementum magna eros, ac posuere elvit tempus et. 
+        Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu 
+        ornare nisl. Nullam convallis augue justo, at imperdiet metus 
+        scelerisque quis.
+      </p>
+    </div>
+    <div>
+      <p>
+        <h4>About</h4>
+        Aliquam elementum magna eros, ac posuere elvit tempus et. 
+        Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu 
+        ornare nisl. Nullam convallis augue justo, at imperdiet metus 
+        scelerisque quis.
+      </p>
+    </div>
+    </section>
+ 
+  
   <img class="middle-img" src="img/mid-page-accent.jpg" alt="Image of code snippets across the screen">
   
-  Services
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+  <section class="bottom-content">
+    <div>
+   
+    <p>
+      <h4>Services</h4>
+    Aliquam elementum magna eros, ac 
+    posuere elvit tempus et. Suspendisse vel 
+    tempus odio, in interdutm nisi. 
+    Suspendisse eu ornare nisl. Nullam 
+    convallis augue justo, at imperdiet metus 
+    scelerisque quis.</p>
+  </div>
+  <div> 
+  <p><h4>Product</h4>
+    Aliquam elementum magna eros, ac 
+    posuere elvit tempus et. Suspendisse vel 
+    tempus odio, in interdutm nisi. 
+    Suspendisse eu ornare nisl. Nullam 
+    convallis augue justo, at imperdiet metus 
+    scelerisque quis.</p>
+  </div> 
+  <div> 
+  <p><h4>Vision</h4>
+    Aliquam elementum magna eros, ac 
+    posuere elvit tempus et. Suspendisse vel 
+    tempus odio, in interdutm nisi. 
+    Suspendisse eu ornare nisl. Nullam 
+    convallis augue justo, at imperdiet metus 
+    scelerisque quis.</p>
+  </div> 
+  </section>
+  <!-- Check your CSS for this section - one of the selectors is missing 👀 -->
+  
+  <hr>
 
+  <section class="contact-info">
+    <h4>Contact</h4>
+    123 Way 456 Street<br>
+    Somewhere, USA<br>
+    <br>
+    1 (888) 888-8888<br>
+    <br>
+    sales@greatidea.io
+  </section>
 
-  Product
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
-
-  Vision
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
-
-  Contact
-  123 Way 456 Street
-  Somewhere, USA
-  1 (888) 888-8888
-  sales@greatidea.io
-
-  Copyright Great Idea! 2018
+  <footer>
+    Copyright Great Idea! 2018
+  </footer>
+  <!-- Great job on contact and footer! Keep it up! -->
+  
   
   </body>
 </html>
